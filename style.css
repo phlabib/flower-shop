@@ -102,9 +102,9 @@ body {
   text-decoration-line: underline;
   cursor: pointer;
 }
-.flower-title:hover{
-    color: #e55473;
-    transition: 0.4s;
+.flower-title:hover {
+  color: #e55473;
+  transition: 0.4s;
 }
 #second-tree {
   background: rgba(5, 151, 160, 0.15);
@@ -123,20 +123,54 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 180px 240px 0px 240px;
+}
+.group-items {
+  padding: 50px 50px 10px 50px;
+}
+.group-items {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.group-items:hover {
+  color: #e55473;
+  cursor: pointer;
+}
+.delivery-title {
+  margin-top: 15px;
+  text-align: center;
+}
 
+/* Hot Deal section */
+.hot-deal-con {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 180px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
 }
-.group-items{
-padding: 50px 50px 10px 50px;
+.deal-con {
+  margin-top: 180px;
+  margin-left: 300px;
 }
-. group-items{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.deal-title {
+  color: #272727;
+  font-size: 40px;
+  margin-bottom: 24px;
 }
-.group-items:hover{
-    color: #e55473;
-    cursor: pointer;
+span {
+  color: #e55473;
 }
-.icon:hover{
-   motion: auto;
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.deal-flower{
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
