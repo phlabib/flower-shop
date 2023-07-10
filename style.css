@@ -77,8 +77,6 @@ body {
   justify-content: space-evenly;
   margin: 48px 240px;
   display: flex;
-  
-
 }
 .flower-tree {
   width: 310px;
@@ -102,11 +100,43 @@ body {
   font-size: 24px;
   line-height: 35px;
   text-decoration-line: underline;
+  cursor: pointer;
 }
-#second-tree{
-    background: rgba(5, 151, 160, 0.15);
+.flower-title:hover{
+    color: #e55473;
+    transition: 0.4s;
 }
-#third-tree{
-    background: rgba(71, 125, 17, 0.15);
+#second-tree {
+  background: rgba(5, 151, 160, 0.15);
+}
+#third-tree {
+  background: rgba(71, 125, 17, 0.15);
+}
+/* Group Section */
+.group-section {
+  width: 1440px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 180px 240px 0px 240px;
 
+}
+.group-items{
+padding: 50px 50px 10px 50px;
+}
+. group-items{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.group-items:hover{
+    color: #e55473;
+    cursor: pointer;
+}
+.icon:hover{
+   motion: auto;
 }
