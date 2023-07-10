@@ -201,4 +201,31 @@ span {
     justify-content: space-evenly;
     margin-left: 230px;
     margin-right: 230px;
+}
 
+/*  <!-- Get the letes Deals seciton --> */
+.lest-deal-con{
+    margin-top: 180px;
+}
+.subscribe-form{
+    justify-content: center;
+    text-align: center;
+    background: url(""), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    width: auto;
+    height: auto;
+    padding: 150px 150px 100px 150px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-right: 200px;
+      
+
+}
+.form{
+    text-align: left;
+    width: 600px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    padding: 10px;
+}
