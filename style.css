@@ -42,15 +42,15 @@ body {
   padding: 20px 43px;
   border: none;
   border-radius: 8px;
-  background: #e55473;
+  background: #f5063a;
   text-decoration: none;
 }
 .btn{
   text-align: left;
 }
 .btn-primary:hover {
-  background-color: rgba(29, 1, 7, 0.767);
-  color: #e55473;
+  background-color: rgba(63, 48, 48, 0.932);
+  color: whitesmoke;
   cursor: pointer;
   transition: 0.4s;
 
@@ -195,6 +195,10 @@ span {
   margin-bottom: 50px;
 }
 /* instagram section */
+.the-flowers:hover{
+  
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
 .insta-con {
   margin-top: 180px;
 }
@@ -248,12 +252,57 @@ span {
   padding: 10px;
 }
 
+
+/* contact us section */
+.contact-Us{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+  background-color: rgba(229, 84, 115, 0.1);
+  padding: 200px;
+}
+.footer-column{
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+
+}
+.sections-title{
+  color: rgba(15, 15, 15, 0.9);
+  font-size: 36px;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+.section-description{
+  margin-bottom: 18px;
+  
+}
+
+.social-links a{
+  margin-right: 40px;
+  justify-content: center;
+  }
+.section-title{
+  color: rgba(15, 15, 15, 0.9);
+  font-size: 36px;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
 /* footer section */
 .footer-con {
   background: #111010;
   width: 1922px;
   height: 449px;
-  margin-top: 180px;
+  
 }
 .footer-title {
   text-align: center;
